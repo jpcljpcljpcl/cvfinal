@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://jpcljpcljpcl.github.io',
-  base: '/cvfinal',
+  base: '/my-repo',
   integrations: [mdx(), sitemap(), tailwind()]
 });
