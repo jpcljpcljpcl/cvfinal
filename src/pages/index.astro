@@ -1,0 +1,133 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const last_posts = posts.slice(0, 3);
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <!-- <div class="text-xl py-1">Welcome 👋</div> -->
+    <div class="text-5xl font-bold">João Lopes</div>
+    <div class="text-3xl py-3 font-bold">
+      Software Engineer and Entrepreneur
+    </div>
+    <div class="py-2">
+      <text class="text-lg">
+        This is <b>Astrofy</b> a free and open-source template for your Personal
+        Portfolio Website built with Astro and TailwindCSS. Create in minutes a
+        website with Blog, CV, Project Section, Store and RSS Feed. I hope you
+        find it useful! I grew up in a technology-filled environment and started
+        exploring the engineering and development area since I was 11 years old.
+
+
+        <p>
+          Since I've been a tech and games enthusiast, I started watching guides
+          on programming and game making.
+        </p>
+
+        <p>
+          I began my journey developing my own game server of an MMORPG game
+          (Metin2) in 2010 which included working with PHP, HTML, Lua and more.
+          I built a website, registration form connected to a database,
+          configured a game client and basically worked clientside and
+          serverside.
+        </p>
+        <p>
+          As a youngster I participated in a lot of activities as so playing
+          violin, joining the singing chorus, music classes, English institute
+          and the most self-developing, swimming competitively.
+        </p>
+        <p>
+          These activities helped a lot in my character and personality
+          development and I'm glad I learned a lot with every single one of
+          them.
+        </p>
+        <p>
+          The most relevant "hobby" was the competitive swimming because I had
+          to be really rigorous, self-disciplined, motivated in order to do well
+          in practices to prepare properly for the competitions. In my club I
+          felt like a leader because I was the person that kept looking for
+          others and helped the team stay motivated, and that taught me a lot in
+          terms of team management and leadership.
+        </p>
+        <p>
+          To sum up, I consider myself a very organized, hardworking and
+          flexible person that can learn about all kinds of subject (IT related)
+          with ease.
+        </p>
+        <p>
+          I am always seeking to assist others and I have a great spirit of
+          leadership.
+        </p>
+      </text>
+    </div>
+    <!-- 
+    <div class="mt-8">
+      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank">
+        Let's connect!</a
+      >
+      <a
+        href="https://github.com/manuelernestog/astrofy"
+        target="_blank"
+        class="btn btn-outline ml-5"
+      >
+        Get This template
+      </a>
+    </div>
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+  </div>
+
+  <HorizontalCard
+    title="Demo Project 1"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="NEW"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 2"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 3"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="FOSS"
+  />
+   -->
+    <!-- 
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+  </div>
+
+  {
+    last_posts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/blog/" + post.slug}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  } -->
+  </div>
+</BaseLayout>
