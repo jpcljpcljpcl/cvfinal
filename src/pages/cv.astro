@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import TimeLineElement from "../components/cv/TimeLine.astro";
+import CVJPCL from "../../public/CVJPCL.jpg";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
@@ -10,7 +11,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     format="webp"
     width={1080}
     height={1920}
-    src="/CVJPCL.jpg"
+    src={CVJPCL}
     alt="Profile image"
   />
   <br />
