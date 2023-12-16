@@ -6,7 +6,13 @@ heroImage: "/cvfinal/projetotechnictrainer/planeamentovisualizacao1.png"
 tags: ["webapp", "react", "bootstrap", "firebase"]
 ---
 
-Projeto realizado em contexto Universitário para a unidade curricular correspondente.
+![enter image description here](../../../public/profile.jpg)
+
+<a href="https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_(novel)">a novel</a>
+
+[a novel](https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_%28novel%29)
+
+<Image class="mask mask-squircle" width={10} height={10} src="../../../public/profile.jpg" alt="Profile image" />
 
 **Objetivos**
 
