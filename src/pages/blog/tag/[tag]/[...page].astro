@@ -42,7 +42,7 @@ const params = Astro.params;
               title={post.data.title}
               img={post.data.heroImage}
               desc={post.data.description}
-              url={"/blog/" + post.slug}
+              url={"/cvfinal/blog/" + post.slug}
               target="_self"
               badge={post.data.badge}
               tags={post.data.tags}
@@ -57,7 +57,7 @@ const params = Astro.params;
   <div class="flex justify-between">
     {
       page.url.prev ? (
-        <a href={page.url.prev} class="btn btn-ghost my-10 mx-5">
+        <a href={"/cvfinal/" + page.url.prev} class="btn btn-ghost my-10 mx-5">
           {" "}
           <svg
             class="h-6 w-6 fill-current md:h-8 md:w-8"
@@ -76,7 +76,7 @@ const params = Astro.params;
     }
     {
       page.url.next ? (
-        <a href={page.url.next} class="btn btn-ghost my-10 mx-5">
+        <a href={"/cvfinal/" + page.url.next} class="btn btn-ghost my-10 mx-5">
           Older Posts{" "}
           <svg
             class="h-6 w-6 fill-current md:h-8 md:w-8"

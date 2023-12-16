@@ -1,10 +1,9 @@
 ---
-title: "Demo Post 3"
+title: "Plataforma Web de Apoio a Treinadores e Atletas em Clubes"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 12 2022"
+pubDate: "Jan 10 2022"
 heroImage: "/cvfinal/post_img.webp"
-badge: "Demo badge"
-tags: ["rust", "tokio"]
+tags: ["webapp", "react", "bootstrap", "firebase"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
