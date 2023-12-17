@@ -12,27 +12,20 @@ const last_posts = posts.slice(0, 3);
 
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
-    <!-- <div class="text-xl py-1">Welcome 👋</div> -->
-    <div class="text-5xl font-bold">João Lopes</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Creator</div>
+    <div class="text-xl py-1">Bem Vindo/a ao meu espaço 👋</div>
+    <div class="text-5xl font-bold">Sou o João Lopes</div>
+    <div class="text-2xl py-3 font-bold">
+      Desenvolvo Websites, Giro Redes Sociais, Filmo com Drone
+    </div>
+    <div class="text-l py-3 font-bold">
+      Combinando paixão pela tecnologia e criatividade, estou pronto para
+      impulsionar o seu projeto.
+    </div>
     <div class="py-2">
       <text class="text-lg">
         Passionate about technology and gaming from a young age, I delved into
         engineering and development at the age of 11.
-        <br /><br />
-         As a tech and games enthusiast, I honed my skills by watching
-        programming and game-making guides.
         <br />
-         In 2010, I initiated my journey by developing a game server for the
-        MMORPG game Metin2, showcasing proficiency in PHP, HTML, Lua, and more.
-        <br />
-         Alongside my tech pursuits, I actively engaged in diverse activities,
-        including violin, singing chorus, music classes, and competitive
-        swimming.
-        <br />
-         The latter, in particular, instilled qualities of rigor,
-        self-discipline, and leadership, making me a motivated and organized
-        individual capable of thriving in IT-related subjects.
       </text>
     </div>
     <!-- 
@@ -48,8 +41,9 @@ const last_posts = posts.slice(0, 3);
         Get This template
       </a>
     </div>
-  </div>
-
+  </div> 
+-->
+    <!-- 
   <div>
     <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
   </div>
@@ -76,26 +70,25 @@ const last_posts = posts.slice(0, 3);
     url="#"
     badge="FOSS"
   />
-   -->
-    <!-- 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
-  </div>
+ -->
+    <div>
+      <div class="text-3xl w-full font-bold mb-5 mt-10">Últimos Projetos</div>
+    </div>
 
-  {
-    last_posts.map((post) => (
-      <>
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={"/blog/" + post.slug}
-          target="_self"
-          badge={post.data.badge}
-        />
-        <div class="divider my-0" />
-      </>
-    ))
-  } -->
+    {
+      last_posts.map((post) => (
+        <>
+          <HorizontalCard
+            title={post.data.title}
+            img={post.data.heroImage}
+            desc={post.data.description}
+            url={"/blog/" + post.slug}
+            target="_self"
+            badge={post.data.badge}
+          />
+          <div class="divider my-0" />
+        </>
+      ))
+    }
   </div>
 </BaseLayout>
