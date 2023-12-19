@@ -6,22 +6,24 @@ import CVJPCL from "../../public/CVJPCL.jpg";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
-  <Image
-    class=""
-    format="webp"
-    width={1080}
-    height={1920}
-    src={CVJPCL}
-    alt="CV"
-  />
-  <br />
-  <center>
-    <div class="pb-12 mt-5">
-      <a
-        class="popup"
-        href="https://drive.google.com/file/d/1733D6_fgVr74zl487QJSlv2k4GNxpy68/view?usp=sharing"
-        >Clique Aqui para obter o meu CV
-      </a>
-    </div>
-  </center>
+  <aside transition:animate="fade">
+    <Image
+      class=""
+      format="webp"
+      width={1080}
+      height={1920}
+      src={CVJPCL}
+      alt="CV"
+    />
+    <br />
+    <center>
+      <div class="pb-12 mt-5">
+        <a
+          class="popup"
+          href="https://drive.google.com/file/d/1733D6_fgVr74zl487QJSlv2k4GNxpy68/view?usp=sharing"
+          >Clique Aqui para obter o meu CV
+        </a>
+      </div>
+    </center>
+  </aside>
 </BaseLayout>
