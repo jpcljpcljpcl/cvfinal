@@ -1,6 +1,6 @@
 ---
 title: "Plataforma de Apoio a Treinadores"
-description: "Plataforma Web para apoiar treinadores na gestãio, agendamento de eventos e bom funcionamento das logísticas de treinos."
+description: "Plataforma Web para apoiar treinadores na gestão, agendamento de eventos e bom funcionamento das logísticas de treinos."
 pubDate: "Jan 10 2022"
 heroImage: "/projetotechnictrainer/planeamentovisualizacao1.png"
 tags: ["webapp", "react", "bootstrap", "firebase"]
