@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jpcljpcljpcl.github.io/cvfinal/
+Sitemap: https://jpcljpcljpcl.github.io/
