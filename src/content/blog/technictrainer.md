@@ -3,7 +3,7 @@ title: "Plataforma de Apoio a Treinadores"
 description: "Plataforma Web para apoiar treinadores na gestão, agendamento de eventos e bom funcionamento das logísticas de treinos."
 pubDate: "Jan 10 2022"
 heroImage: "/projetotechnictrainer/planeamentovisualizacao1.png"
-tags: ["webapp", "react", "bootstrap", "firebase"]
+tags: ["app", "react", "bootstrap", "firebase", "web"]
 ---
 
 <!--
@@ -15,7 +15,6 @@ tags: ["webapp", "react", "bootstrap", "firebase"]
 
 
 <Image class="mask mask-squircle" width={10} height={10} src="../../../public/profile.jpg" alt="Profile image" />
- -->
 
 **Objetivos**
 
@@ -33,3 +32,6 @@ tags: ["webapp", "react", "bootstrap", "firebase"]
 > O projeto será desenvolvido utilizando as tecnologias React, Node.js e
 > MongoDB. Deverá ainda disponibilizar uma versão móvel para uso em
 > diferentes tipos de ambientes.
+ -->
+
+Documento em construção
