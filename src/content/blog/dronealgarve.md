@@ -1,7 +1,7 @@
 ---
 title: "Filmagens de Drone - Praias do Algarve"
 description: "Filmagem Áerea e Edição da Praia dos Pescadores, da Falésia, da Quarteira e de Benagil"
-pubDate: "Aug 30 2023"
+pubDate: "Aug 22 2023"
 heroImage: "/dronealgarve/dronealgarve.png"
 tags: ["video", "drone", "edicao"]
 ---
