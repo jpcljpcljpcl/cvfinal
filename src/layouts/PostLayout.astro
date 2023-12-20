@@ -24,18 +24,6 @@ import { Image } from "astro:assets";
   <aside transition:animate="fade">
     <main class="md:flex md:justify-center">
       <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-        {
-          heroImage && (
-            <Image
-              width={750}
-              height={422}
-              format="webp"
-              src={heroImage}
-              alt={title}
-              class="w-full mb-6"
-            />
-          )
-        }
         <h1 class="title my-2 text-4xl font-bold">{title}</h1>
         {pubDate && <time>{displayDate}</time>}
         <br />
@@ -59,6 +47,20 @@ import { Image } from "astro:assets";
             </div>
           )
         }
+        <!-- 
+          {
+          heroImage && (
+            <Image
+              width={750}
+              height={422}
+              format="webp"
+              src={heroImage}
+              alt={title}
+              class="w-full mb-6"
+            />
+          )
+        } 
+        -->
         <div class="divider my-2"></div>
         <slot />
       </article>
