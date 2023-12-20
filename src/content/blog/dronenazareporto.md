@@ -1,6 +1,6 @@
 ---
-title: "Filmagens de Drone - Praias Oeste"
-description: "Filmagem Áerea e Edição da Praia da Nazaré e da Foz"
+title: "Filmagens de Drone - Praias da Nazaré e da Foz"
+description: "Filmagem Áerea e Edição de Praias de Portugal"
 pubDate: "Aug 2 2023"
 heroImage: "/dronenazareporto/dronenazareporto.png"
 tags: ["video", "drone", "edicao"]
